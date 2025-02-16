@@ -3,7 +3,6 @@ package lambdaFuncitons;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 // 20. Write a Java program to implement a lambda expression to sort a list of objects based on a specific attribute. 
