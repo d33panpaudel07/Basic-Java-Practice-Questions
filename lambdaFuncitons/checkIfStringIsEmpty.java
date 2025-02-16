@@ -9,6 +9,7 @@ public class checkIfStringIsEmpty {
 
     public static void main(String[] args) {
         System.out.println("Enter a string to test if it's empty");
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         String userInput = input.nextLine();
         // String testString = "Ram";

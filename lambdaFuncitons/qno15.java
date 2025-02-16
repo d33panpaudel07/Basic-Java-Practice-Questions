@@ -2,7 +2,6 @@ package lambdaFuncitons;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 // 15. Write a Java program to implement a lambda expression to calculate the sum of squares of all odd and even numbers in a list. 
 public class qno15 {
