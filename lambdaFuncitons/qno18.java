@@ -1,7 +1,5 @@
 package lambdaFuncitons;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.function.Predicate;
 
 // 18. Write a Java program to implement a lambda expression to check if a given number is a perfect square. 
