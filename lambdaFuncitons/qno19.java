@@ -15,7 +15,14 @@ public class qno19 {
                 .skip(1)// skip first so largest is skipped
                 .findFirst()// now proceed to find first which is 2nd greatest
                 .orElse(null);// happens incase there's only one element in the list
+        Integer secSmallest = intList.stream()
+                .distinct()
+                .sorted()
+                .skip(1)
+                .findFirst()
+                .orElse(null);
 
         System.out.println("Second largest element is: " + secLargest);
+        System.out.println("Second smallest element is: " + secSmallest);
     }
 }
