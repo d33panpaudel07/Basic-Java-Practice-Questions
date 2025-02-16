@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.OutputStream;
 
 public class fileInputAndOutput {
