@@ -1,9 +1,7 @@
 package streams.sequentialStreams;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.DoubleStream;
 
 // 7. Write a Java program to find the maximum and minimum values in a list of integers using streams. 
 public class qno7 {
