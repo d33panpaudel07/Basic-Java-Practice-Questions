@@ -56,7 +56,8 @@ public class qno20 {
 
         // code below compares string witout chanign original list
         List<Student> sortedStudentsList = studentsList.stream()
-                .sorted(Comparator.comparing(Student::getName)).collect(Collectors.toList());
+                .sorted(Comparator.comparing(Student::getName))
+                .collect(Collectors.toList());
         System.out.println();
         System.out.println("Sorted students list: ");
         for (Student student : sortedStudentsList) {
