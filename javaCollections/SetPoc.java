@@ -13,5 +13,9 @@ public class SetPoc {
         for (String elem : testSet) {
             System.out.println("element " + index + ": " + elem);
         }
+
+        String keyword = "jack";
+        System.out.println(testSet.contains(keyword));
+
     }
 }
