@@ -1,6 +1,6 @@
 package threads.simpleThreading;
 
-public class ImplementingRunnable {
+public class implementingRunnable {
     public static void main(String[] args) {
         System.out.println("This is running by implementing Threads");
     }
